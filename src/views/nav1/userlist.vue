@@ -52,7 +52,10 @@
 				<el-form-item label="姓名" prop="name">
 					<el-input v-model="editForm.name" auto-complete="off"></el-input>
 				</el-form-item>
-				<el-form-item label="性别">
+				<el-form-item label="密码" prop="name">
+					<el-input v-model="editForm.age" auto-complete="off"></el-input>
+				</el-form-item>
+				<!-- <el-form-item label="性别">
 					<el-radio-group v-model="editForm.sex">
 						<el-radio class="radio" :label="1">男</el-radio>
 						<el-radio class="radio" :label="0">女</el-radio>
@@ -66,7 +69,7 @@
 				</el-form-item>
 				<el-form-item label="地址">
 					<el-input type="textarea" v-model="editForm.addr"></el-input>
-				</el-form-item>
+				</el-form-item> -->
 			</el-form>
 			<div slot="footer" class="dialog-footer">
 				<el-button @click.native="editFormVisible = false">取消</el-button>
