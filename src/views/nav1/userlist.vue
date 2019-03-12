@@ -16,6 +16,9 @@
 		</el-col>
 
 		<!--列表-->
+		
+
+		<!--列表-->
 		<el-table :data="users" highlight-current-row v-loading="listLoading" @selection-change="selsChange" style="width: 100%;">
 			<el-table-column type="selection" width="100">
 			</el-table-column>
